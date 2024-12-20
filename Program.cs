@@ -3,7 +3,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 
 Console.OutputEncoding = Encoding.UTF8; // Інакше українське "і" не виводилось.
-Console.Title = "Домашка №5";
+Console.Title = "Домашка №6";
 
 
 do
