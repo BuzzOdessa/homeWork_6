@@ -10,7 +10,7 @@ do
 {
     Console.WriteLine($"Введіть число у бінарному вигляді(тільки 0 та 1). Введення порожнього рядка це вихід із програми. ");
     var testStr = Console.ReadLine();
-    if ( testStr.Trim() == "" )
+    if (testStr ==null || testStr.Trim() == "" )
         break;
     if (!Regex.Match(testStr, "^[01]+$").Success)
     {
